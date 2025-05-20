@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Menubar from "./components/Menubar.jsx";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Qureshi, Anique Final",
+  title: "lin, genghui Final",
 };
 
 export default function RootLayout({ children }) {
