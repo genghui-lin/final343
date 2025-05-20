@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function menu() {
+export default function Menubar() {
     return (
       <>
         <ul>
@@ -8,10 +8,10 @@ export default function menu() {
             <Link href='/'>Home</Link>
           </li>
           <li>
-            <a href='https://exam-part-one.vercel.app/' target='_blank'>Midterm Part I - Expense</a>
+            <a href='https://expense-green-alpha.vercel.app/' target='_blank'>Midterm Part I - Expense</a>
           </li>
           <li>
-            <a href='https://exam-partr-two.vercel.app/#get-started' target='_blank'>Midterm Part II Site</a>
+            <a href='https://customer-weld.vercel.app/' target='_blank'>Midterm Part II Site</a>
           </li>
           <li>
             <Link href='/faq'>FAQ</Link>
